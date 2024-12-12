@@ -435,9 +435,7 @@ function generate_name($flag, $ip, $port, $ping, $is_reality)
                 "REALITY|" .
                 $flag .
                 " | " .
-                $ip .
-                "-" .
-                $port .
+                " @VPNineh" .
                 " | " .
                 $ping .
                 "ms";
@@ -446,9 +444,7 @@ function generate_name($flag, $ip, $port, $ping, $is_reality)
             $name =
                 $flag .
                 " | " .
-                $ip .
-                "-" .
-                $port .
+                "@VPNineh" .
                 " | " .
                 $ping .
                 "ms";
