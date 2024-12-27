@@ -15,9 +15,10 @@ file_put_contents("merged", $merged_mix);
 file_put_contents("merged_base64", base64_encode($merged_mix));
 
 # Random Lines
+$num = 50;
 $lines = file('merged');
 shuffle($lines);
-$random_lines = array_slice($lines, 0, 10);
+$random_lines = array_slice($lines, 0, $num);
 file_put_contents("lite", $random_lines);
 
 
