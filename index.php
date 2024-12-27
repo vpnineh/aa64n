@@ -14,6 +14,13 @@ $merged_mix = $merged_vmess . $merged_vless . $merged_trojan . $merged_shadowsoc
 file_put_contents("merged", $merged_mix);
 file_put_contents("merged_base64", base64_encode($merged_mix));
 
+# Random Lines
+$lines = file('merged');
+shuffle($lines);
+$random_lines = array_slice($lines, 0, 10);
+file_put_contents("lite", $random_lines);
+
+
 file_put_contents("Split/Normal/vmess", $merged_vmess);
 file_put_contents("Split/Base64/vmess", base64_encode($merged_vmess));
 file_put_contents("Split/Normal/vless", $merged_vless);
