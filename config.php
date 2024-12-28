@@ -1,10 +1,11 @@
 <?php
 
 $subscription_urls = [
-  "https://raw.githubusercontent.com/coldwater-10/V2rayCollector_mahsaserver/main/vmess_iran.txt",
-  "https://raw.githubusercontent.com/coldwater-10/V2rayCollector_mahsaserver/main/ss_iran.txt",
-  "https://raw.githubusercontent.com/coldwater-10/V2rayCollector_mahsaserver/main/trojan_iran.txt",
-  "https://raw.githubusercontent.com/coldwater-10/V2rayCollector_mahsaserver/main/vless_iran.txt",
+  "https://raw.githubusercontent.com/vpnineh/sub/refs/heads/main/hub#Farbod",
+  #"https://raw.githubusercontent.com/coldwater-10/V2rayCollector_mahsaserver/main/vmess_iran.txt",
+  #"https://raw.githubusercontent.com/coldwater-10/V2rayCollector_mahsaserver/main/ss_iran.txt",
+  #"https://raw.githubusercontent.com/coldwater-10/V2rayCollector_mahsaserver/main/trojan_iran.txt",
+  #"https://raw.githubusercontent.com/coldwater-10/V2rayCollector_mahsaserver/main/vless_iran.txt",
   #"https://igdux.top/~sub-tnetplus",
   #"https://links.achaemenidempireofpersia.uk/cR3Q5X#IrancpinetSub1",
   #"https://sub1.achaemenidempireofpersia.uk/#IrancpinetSub2",
